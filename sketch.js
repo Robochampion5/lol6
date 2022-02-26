@@ -5,13 +5,14 @@ const Constraint = Matter.Constraint;
 
 var engine, world;
 var ground, sling, ball;
-var stand1, stand2;
+var stand1, stand2,score;
 var box1, box2, box3, box4, box5, box6, box7, box8, box9, box10, box11, box12, box13, box14, box15;
 var py1, py2, py3, py4, py5;
 
 function setup() {
   createCanvas(1300, 400);
   engine = Engine.create();
+  score = 0;
   world = engine.world;
   ground = new Ground(750, 375, 1500, 50);
   box1 = new Box(400, 230, 50, 50);
@@ -46,6 +47,7 @@ function draw() {
   Engine.update(engine);
   rectMode(CENTER);
   ground.display();
+  text("Score"+score,750,40);
   box1.display("red", "pink");
   box2.display("red", "pink");
   box3.display("red", "pink");
