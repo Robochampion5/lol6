@@ -94,6 +94,12 @@ function draw() {
   box13.score();
   box14.score();
   box15.score();
+  py1.score();
+  py2.score();
+  py3.score();
+  py4.score();
+  py5.score();
+  py6.score();
 }
 
 function mouseDragged() {
