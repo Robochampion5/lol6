@@ -33,9 +33,9 @@ function setup() {
   //py1 = new Box(845, 150, 50, 50);
   //py2 = new Box(895, 150, 50, 50);
   //py3 = new Box(945, 150, 50, 50);
-  py4 = new Box(870, 100, 50, 50);
-  py5 = new Box(920, 100, 50, 50);
-  py6 = new Box(895, 50, 50, 50);
+  //py4 = new Box(870, 100, 50, 50);
+  //py5 = new Box(920, 100, 50, 50);
+  //py6 = new Box(895, 50, 50, 50);
   ball = new Polygon(100, 100, 30);
   stand1 = new Ground(500, 270, 300, 20);
   stand2 = new Ground(900, 200, 300, 20);
