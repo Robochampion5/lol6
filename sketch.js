@@ -30,9 +30,9 @@ function setup() {
   box13 = new Box(475, 80, 50, 50);
   box14 = new Box(525, 80, 50, 50);
   box15 = new Box(500, 30, 50, 50);
-  py1 = new Box(845, 150, 50, 50);
-  py2 = new Box(895, 150, 50, 50);
-  py3 = new Box(945, 150, 50, 50);
+  //py1 = new Box(845, 150, 50, 50);
+  //py2 = new Box(895, 150, 50, 50);
+  //py3 = new Box(945, 150, 50, 50);
   py4 = new Box(870, 100, 50, 50);
   py5 = new Box(920, 100, 50, 50);
   py6 = new Box(895, 50, 50, 50);
@@ -94,12 +94,6 @@ function draw() {
   box13.score();
   box14.score();
   box15.score();
-  py1.score();
-  py2.score();
-  py3.score();
-  py4.score();
-  py5.score();
-  py6.score();
 }
 
 function mouseDragged() {
